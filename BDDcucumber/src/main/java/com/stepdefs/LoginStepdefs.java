@@ -15,7 +15,7 @@ public class LoginStepdefs {
 	
 	@Given("^user will be on login page$")
 	public void user_will_be_on_login_page() throws Throwable {
-		System.setProperty("webdriver.chrome.driver", "D:\\01. Java\\Setup\\chrom_102 version\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("file:///D:/01.%20Java/Setup/javabykiran-Selenium-Softwares/Offline%20Website/index.html");
 		
